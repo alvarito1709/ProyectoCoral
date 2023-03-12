@@ -1,13 +1,12 @@
-*{
-    padding: 3%;
-}
+
 
 h2{
     color: #482573;
 }
 
 #limpieza1{
-    width: 120%;
-    height: 64vh;
+    width: 100%;
+    height: 60vh;
     border-radius: 30px;
+    border: 1px solid black;
 }
