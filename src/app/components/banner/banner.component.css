@@ -11,9 +11,20 @@ p{
     text-align: justify;
 }
 
-#limpieza1{
-    width: 100%;
-    height: 60vh;
+.limpieza1{
+    width: 70%;
+    height: 50vh;
     border-radius: 30px;
+}
 
+#primero{
+    margin-top: -5%;
+    margin-left: -8%;
+    z-index: 0;
+}
+
+#segundo{
+    margin-left: 45%;
+    margin-top: -20%;
+    z-index: -1;
 }

@@ -9,6 +9,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { BannerComponent } from './components/banner/banner.component';
 import { UbicacionComponent } from './components/ubicacion/ubicacion.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { VistaContactoComponent } from './vistas/vista-contacto/vista-contacto.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { ContactoComponent } from './components/contacto/contacto.component';
     LoginComponent,
     BannerComponent,
     UbicacionComponent,
-    ContactoComponent
+    ContactoComponent,
+    FooterComponent,
+    VistaContactoComponent
   ],
   imports: [
     BrowserModule,
