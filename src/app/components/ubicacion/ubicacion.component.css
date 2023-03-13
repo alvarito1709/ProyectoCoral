@@ -1,13 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
 
-.row{
-    margin: 22% 0 5% 0;
-    height: 70vh;
+.contenedor{
+    margin-top: 30%;
+}
+#titulo{
+    margin-bottom: 3%;
 }
 
 .btn{
    display: block;
-   margin: 10% auto auto;
+   margin: 7% auto auto;
 
 }
 
@@ -18,3 +20,11 @@ h3{
     margin-bottom: 5%;
 }
 
+#informacion{
+    font-style: italic;
+    font-weight: 400;
+}
+
+iframe{
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .9);
+}
