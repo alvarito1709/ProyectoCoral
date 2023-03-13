@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import * as Aos from 'aos';
+
 
 @Component({
   selector: 'app-banner',
@@ -10,6 +12,8 @@ export class BannerComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    Aos.init();
+    window.addEventListener('load', Aos.refresh)
   }
 
 }

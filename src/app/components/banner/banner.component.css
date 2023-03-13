@@ -1,12 +1,19 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@1&display=swap');
 
 h2{
-    color: #482573;
+    color: #1c1c1c;
+    font-family: Playfair Display;
+    font-size: 48px;
+}
+
+p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
 }
 
 #limpieza1{
     width: 100%;
     height: 60vh;
     border-radius: 30px;
-    border: 1px solid black;
+
 }
