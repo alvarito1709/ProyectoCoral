@@ -11,6 +11,7 @@ import { UbicacionComponent } from './components/ubicacion/ubicacion.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { VistaContactoComponent } from './vistas/vista-contacto/vista-contacto.component';
+import { QuienesSomosComponent } from './components/quienes-somos/quienes-somos.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { VistaContactoComponent } from './vistas/vista-contacto/vista-contacto.c
     UbicacionComponent,
     ContactoComponent,
     FooterComponent,
-    VistaContactoComponent
+    VistaContactoComponent,
+    QuienesSomosComponent
   ],
   imports: [
     BrowserModule,
