@@ -1,0 +1,10 @@
+.contenedor{
+    position: fixed;
+    
+}
+
+svg{
+    display: block;
+    margin-top: 8%;
+    color: black;
+}

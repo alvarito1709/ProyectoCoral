@@ -14,6 +14,7 @@ import { VistaContactoComponent } from './vistas/vista-contacto/vista-contacto.c
 import { QuienesSomosComponent } from './components/quienes-somos/quienes-somos.component';
 import { VistaQuienesSomosComponent } from './vistas/vista-quienes-somos/vista-quienes-somos.component';
 import { VistaUbicacionComponent } from './vistas/vista-ubicacion/vista-ubicacion.component';
+import { RedesComponent } from './components/redes/redes.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { VistaUbicacionComponent } from './vistas/vista-ubicacion/vista-ubicacio
     VistaContactoComponent,
     QuienesSomosComponent,
     VistaQuienesSomosComponent,
-    VistaUbicacionComponent
+    VistaUbicacionComponent,
+    RedesComponent
   ],
   imports: [
     BrowserModule,
