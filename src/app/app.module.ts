@@ -15,6 +15,8 @@ import { QuienesSomosComponent } from './components/quienes-somos/quienes-somos.
 import { VistaQuienesSomosComponent } from './vistas/vista-quienes-somos/vista-quienes-somos.component';
 import { VistaUbicacionComponent } from './vistas/vista-ubicacion/vista-ubicacion.component';
 import { RedesComponent } from './components/redes/redes.component';
+import { ErrorComponent } from './components/error/error.component';
+import { VistaErrorComponent } from './vistas/vista-error/vista-error.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { RedesComponent } from './components/redes/redes.component';
     QuienesSomosComponent,
     VistaQuienesSomosComponent,
     VistaUbicacionComponent,
-    RedesComponent
+    RedesComponent,
+    ErrorComponent,
+    VistaErrorComponent
   ],
   imports: [
     BrowserModule,

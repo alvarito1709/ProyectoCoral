@@ -5,9 +5,10 @@
 }
 
 h2{
+ 
     color: #1c1c1c;
     font-family: Playfair Display;
-    font-size: 3.1rem;
+    font-size: 3.5vw;
 }
 
 p{
@@ -24,13 +25,13 @@ p{
 }
 
 #primero{
-    margin-top: -5%;
+    margin-top: -10%;
     margin-left: -8%;
     z-index: 0;
 }
 
 #segundo{
     margin-left: 40%;
-    margin-top: -20%;
+    margin-top: -25%;
     z-index: -1;
 }

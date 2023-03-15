@@ -1,10 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ContactoComponent } from './components/contacto/contacto.component';
+import { ErrorComponent } from './components/error/error.component';
 import { InicioComponent } from './components/inicio/inicio.component';
 import { LoginComponent } from './components/login/login.component';
 import { RedesComponent } from './components/redes/redes.component';
 import { VistaContactoComponent } from './vistas/vista-contacto/vista-contacto.component';
+import { VistaErrorComponent } from './vistas/vista-error/vista-error.component';
 import { VistaQuienesSomosComponent } from './vistas/vista-quienes-somos/vista-quienes-somos.component';
 import { VistaUbicacionComponent } from './vistas/vista-ubicacion/vista-ubicacion.component';
 
@@ -15,7 +17,8 @@ const routes : Routes = [
   { path: 'quienesSomos', component: VistaQuienesSomosComponent },
   { path: 'ubicacion', component: VistaUbicacionComponent },
   { path: 'redes', component: RedesComponent },
-{ path: 'login', component: LoginComponent }
+{ path: 'login', component: LoginComponent },
+  { path: '**', component: VistaErrorComponent }
 ]
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
