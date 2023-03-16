@@ -22,6 +22,7 @@
     "aos": "^2.3.4",
     "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.10.3",
+    "firebase": "^9.17.2",
     "jquery": "^3.6.4",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
