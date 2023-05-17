@@ -1,0 +1,156 @@
+
+
+.carrito{
+    width: 27%;
+    min-width: 200px;
+    height: fit-content;
+    min-height: 100vh;
+    float: right;
+    border: 1px solid grey;
+    background-color: rgb(231, 229, 229);
+    z-index: 1;
+}
+
+.cabecera{
+    width: 100%;
+    height: 10%;
+    background-color: #311566;
+    color: whitesmoke;
+    border: 1px solid grey;
+    border-top: none;
+    border-left: none;
+    padding: 4% 2% 2% 10%;
+    font-weight: 600;
+    font-size: 1.2rem;
+    display: block;
+    text-align: center;
+}
+
+.cuerpo{
+padding: 1%;
+}
+
+
+p{
+    justify-content: center;
+}
+
+svg{
+    float: right;
+}
+
+.btn{
+    width: 80%;
+    height: 7vh;
+    background-color: rgba(49, 21, 102, .9);
+    color: whitesmoke;
+    font-weight: 500;
+    box-shadow: 0px 2px 20px #070707a2;
+    margin: 10% auto 0 auto ;
+    display: block;
+}
+
+.btn:hover{
+    background-color: rgba(49, 21, 102, .8);
+    box-shadow: 0px 2px 30px #070707a2;
+}
+
+.items{
+    width: 100%;
+    height: fit-content;
+    color: #000;
+    margin: 0 auto 0 auto;
+    display: flex;
+    background-color: whitesmoke;
+    padding: 2%;
+}
+
+.items:first-child{
+    margin: 8% auto 0 auto;
+}
+
+.imagen-item{
+    width: 30%;
+    height: 30%;
+    border-radius: 100%;
+    margin: auto 2% auto 0;
+}
+
+.bi{
+    cursor: pointer;
+}
+
+.descripcion{
+    margin: auto;
+    font-weight: 500;
+    font-size: 2.3vh;
+}
+
+.cantidad-items{
+    width: 80%;
+    height: 30%;
+    margin: 6% auto 0;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.cantidad-items:hover{
+    border: 1px solid #6727dd;
+    transition: all 0.3s;
+}
+
+#cant{
+    color: #000;
+    font-weight: 400;
+    font-size: 2vh;
+    margin: 6% auto 0;
+}
+.cantidad{
+    padding: 1%;
+}
+
+.total-compra{
+    float: right;
+    font-weight: 700;
+    font-size: 1.3vw;
+}
+
+#precio-unitario{
+    font-weight: 500;
+}
+
+.sin-productos{
+    margin: 25%  auto 0;
+    padding: 2%;
+    text-align: center;
+    display: flex;
+    font-weight: 600;
+    font-size: 1.4vw;
+}
+
+@media only screen and (max-width:576px) {
+    .cabecera{
+        font-size: 90%;
+    }
+
+    .sin-productos{
+        font-size: 100%;
+    }
+
+    .descripcion{
+        font-size: 80%;
+    }
+
+    .items p{
+        font-size: 80%;
+    }
+
+    .total-compra{
+        font-size: 80%;
+    }
+
+    .btn{
+        font-size: 80%;
+        max-height: 40px;
+    }
+}

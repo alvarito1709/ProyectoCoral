@@ -1,29 +1,38 @@
-
-body{
-    background-color: #65658F;
-    color: whitesmoke;
+.fondo{
+    width: 100%;
+    height: 100%;
+    background-color: #311566;
+    position: fixed;
+    z-index: -1;
+    margin-top: -8%;
 }
 .container{
     display: block;
-    margin: 10% auto;
+    margin: 8% auto;
     width: 30%;
-    max-width: 80vh;
-    height: 60%;
-    max-height: 60%;
-    border: solid 2px #120A19;
-    background-color: rgba(84, 41, 124, .9);
+    min-width: 230px;
+    height: 70vh;
+    background-color: #522f94;
     box-shadow: 0 15px 25px rgba(0,0,0,.6);
-    border-radius: 10px;
+    padding: 2%;
+}
+
+@media only screen and (max-width:576px) {
+  .container{
+    max-height: 350px;
+  }
+
+  input[type="text"], input[type="password"],input[type="submit"]{
+    max-height: 45px;
+  }
 }
 
 h1{
-   
     display: flex;
     margin: 4% auto;
     justify-content: center;
     font-family: sans-serif;
-    font-size: 30px;
-    color: whitesmoke;
+    color: rgba(211, 182, 238, 0.9);
 }
 hr{
     display: block;
@@ -35,32 +44,57 @@ hr{
 label{
     display: block;
     margin: auto;
-    padding: 2vh;
 
 }
-input[type="email"], input[type="password"]{
+input[type="text"], input[type="password"]{
     display: block;
-    margin: 2% auto;
+    margin: 7% auto;
     width: 85%;
-    height: 4vh;
-    max-height: 30px;
-    border-radius: 5px;
-    border: solid 2px #120A19;
-    background-color: #DBD6DF;
+    height: 7vh;
+    border: solid 1px grey;
+    border-radius: 3px;
+}
+
+input[type="text"]{
+    margin-top: 10%;
 }
 
 
 input[type="submit"]{
     display:block;
-    margin: 4% auto;
-    width: 30%;
-    height: 4vh;
-    background-color: #120A19;
-    color: whitesmoke;
-    border-radius: 10px;
+    margin: 10% auto;
+    width: 85%;
+    height: 7vh;
+    background-color: rgba(211, 182, 238, 0.9);
+    color: #000;
     cursor: pointer;
+    border: 1px solid gray;
+    border-radius: 3px;
 }
 
 input:hover {
-    transform: scale(1.05);
+    border: 2px solid rgba(211, 182, 238, 0.9) ;
+}
+
+.registro{
+    color: rgba(211, 182, 238, 0.9) ;
+    text-align: center;
+    justify-content: center;
+}
+
+.registro p{
+    margin-top: -4%;
+}
+
+a{
+    color: rgba(211, 182, 238, 0.9) ;
+    text-decoration: none;
+}
+
+.volver{
+    display: block;
+    margin: -6% auto 0;
+    text-align: center;
+    cursor: pointer;
+    color: rgba(167, 113, 218, 0.9) ;
 }

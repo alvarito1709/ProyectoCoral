@@ -9,6 +9,19 @@ svg{
     color: black;
     width:45% ;
     height: 45%;
-    min-width: 20px;
-    min-height: 20px;
+    min-width: 28px;
+    min-height: 28px;
 }
+
+.instagram{
+fill: rgb(143, 19, 180);
+}
+
+.facebook{
+    fill: rgb(3, 3, 141);
+}
+
+.whatsapp{
+    fill: rgb(9, 100, 9);
+}
+

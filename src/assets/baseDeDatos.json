@@ -1,0 +1,129 @@
+{
+    "productos":{
+        "detergente": [{
+            "id":"1",
+            "nombre": "Desinfectante las llaves.",
+            "descripcion":"Desinfectante Las Llaves aroma lavanda 1LT.",
+            "precio":3.6,
+            "oferta":3,
+            "imagen": "https://i.ibb.co/jhg7dgb/desinfectante-Las-Llaves.jpg",
+            "categoria": "detergente",
+            "cantidad": 1
+        },
+        {
+            "id":"2",
+            "nombre": "Desinfectante MAS",
+            "descripcion":"Desinfectante MAS aroma bebé 1LT.",
+            "precio":3.4,
+            "oferta":2.9,
+            "imagen": "https://i.ibb.co/gWRQxqD/desinfectante-Mas.jpg",
+            "categoria": "detergente",
+            "cantidad": 1
+        },
+        {
+            "id":"3",
+            "nombre": "Desinfectante Mistolin",
+            "descripcion":"Desinfectante Mistolin aroma bebé 1LT.",
+            "precio":null,
+            "oferta":3.4,
+            "imagen": "https://i.ibb.co/4N5vm67/mistolin-Bebe.webp",
+            "categoria": "detergente",
+            "cantidad": 1
+        },
+        {
+            "id":"4",
+            "nombre": "Desinfectante Xedex.",
+            "descripcion":"Desinfectante Xedex aroma lavanda 1LT.",
+            "precio":3.6,
+            "oferta":3.4,
+            "imagen": "https://i.ibb.co/pP50PtM/xedex-desinfectante-lavanda.jpg",
+            "categoria": "detergente",
+            "cantidad": 1
+        }],
+
+        "lavaplatos":[
+            {
+                "id":"5",
+            "nombre": "Lavaplatos Clic.",
+            "descripcion":"Lavaplatos liquido Clic 800ML manzana verde.",
+            "precio":3,
+            "oferta":2.6,
+            "imagen": "https://i.ibb.co/4MgHcgk/Lavaplatos-CLIC-800-ml.jpg",
+            "categoria": "lavaplato",
+            "cantidad": 1
+            },
+            {
+                "id":"6",
+            "nombre": "Lavaplatos AXION.",
+            "descripcion":"Lavaplatos en pasta AXION 500gr.",
+            "precio":null,
+            "oferta":4,
+            "imagen": "https://i.ibb.co/9rMrpMF/Lavaplatos-Axion-Pasta.jpg",
+            "categoria": "lavaplato",
+            "cantidad": 1
+            },
+            {
+                "id":"7",
+            "nombre": "Lavaplatos Clic.",
+            "descripcion":"Lavaplatos liquido Clic 800ML limón.",
+            "precio":3,
+            "oferta":2.6,
+            "imagen": "https://i.ibb.co/VYSnc26/lavaplatosclic-Limon.jpg",
+            "categoria": "lavaplato",
+            "cantidad": 1
+            },
+            {
+                "id":"8",
+            "nombre": "Lavaplatos las Llaves.",
+            "descripcion":"Lavaplatos liquido Las Llaves 800ML brisa marina.",
+            "precio":null,
+            "oferta":2.3,
+            "imagen": "https://i.ibb.co/5Ft0WsN/Lavaplatos-Las-Llaves.jpg",
+            "categoria": "lavaplato",
+            "cantidad": 1
+            }
+        ],
+        "perfumes":[
+            {
+                "id":"9",
+            "nombre": "Egeo Blue.",
+            "descripcion":"Perfume Egeo Blue 90ml. oBoticario.",
+            "precio":9,
+            "oferta":7.8,
+            "imagen": "https://i.ibb.co/vdrM9NN/perfume2.webp",
+            "categoria": "perfume",
+            "cantidad": 1
+            },
+            {
+                "id":"10",
+            "nombre": "Perfume Glamour.",
+            "descripcion":"Perfume Glamour 90ml. oBoticario",
+            "precio":null,
+            "oferta":9,
+            "imagen": "https://i.ibb.co/ygtmTws/perfume1.jpg",
+            "categoria": "perfume",
+            "cantidad": 1
+            },
+            {
+                "id":"11",
+            "nombre": "Egeo Dolce.",
+            "descripcion":"Perfume Egeo Dolce 90ml. oBoticario",
+            "precio":9,
+            "oferta":7.8,
+            "imagen": "https://i.ibb.co/8xTMxQB/perfume3.webp",
+            "categoria": "perfume",
+            "cantidad": 1
+            },
+            {
+                "id":"12",
+            "nombre": "Selvace",
+            "descripcion":"Perfume Selvace 100ml.",
+            "precio":10,
+            "oferta":8.2,
+            "imagen": "https://i.ibb.co/DbqVZjj/perfume4.jpg",
+            "categoria": "perfume",
+            "cantidad": 1
+            }
+        ]
+    }
+}

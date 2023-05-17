@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule} from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
@@ -17,6 +19,15 @@ import { VistaUbicacionComponent } from './vistas/vista-ubicacion/vista-ubicacio
 import { RedesComponent } from './components/redes/redes.component';
 import { ErrorComponent } from './components/error/error.component';
 import { VistaErrorComponent } from './vistas/vista-error/vista-error.component';
+import { ProductosComponent } from './components/productos/productos.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormularioContactoComponent } from './components/formulario-contacto/formulario-contacto.component';
+import { TerminosYCondicionesComponent } from './components/terminos-ycondiciones/terminos-ycondiciones.component';
+import { PreguntasFrecuentesComponent } from './components/preguntas-frecuentes/preguntas-frecuentes.component';
+import { PoliticaDeDevolucionesComponent } from './components/politica-de-devoluciones/politica-de-devoluciones.component';
+import { CarritoComponent } from './components/carrito/carrito.component';
+import { PasarelaDePagoComponent } from './components/pasarela-de-pago/pasarela-de-pago.component';
+import { RegistroComponent } from './components/registro/registro.component';
 
 @NgModule({
   declarations: [
@@ -34,11 +45,22 @@ import { VistaErrorComponent } from './vistas/vista-error/vista-error.component'
     VistaUbicacionComponent,
     RedesComponent,
     ErrorComponent,
-    VistaErrorComponent
+    VistaErrorComponent,
+    ProductosComponent,
+    FormularioContactoComponent,
+    TerminosYCondicionesComponent,
+    PreguntasFrecuentesComponent,
+    PoliticaDeDevolucionesComponent,
+    CarritoComponent,
+    PasarelaDePagoComponent,
+    RegistroComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule, 
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

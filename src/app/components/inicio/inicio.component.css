@@ -1,5 +1,6 @@
 body{
-    padding: 10%;
+    padding: 8%;
+    z-index: -1;
 }
 
 app-redes{
@@ -7,4 +8,17 @@ app-redes{
     margin-right: 5%;
     margin-top: 2%;
 }
+
+app-carrito{
+    background: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  overflow-y: scroll;
+}
+
+
 

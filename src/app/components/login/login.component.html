@@ -1,15 +1,25 @@
 
+    <div class="fondo"></div>
+    <form [formGroup]="form" (ngSubmit)="submit($event)">
     <div class="container">
-        <h1>Login</h1>
-        <hr>
-        <label for="email">
-            <input type="email" id="email" placeholder="Email" required/>
-        </label>
+        <h1>Bienvenido.</h1>
+      
+   
+            <input type="text"  placeholder="Username" id="user" formControlName="user" [(ngModel)]="user" required/>
+
         <label for="password">
-            <input type="password" id="password" placeholder="Password" required/>
+            <input type="password" id="password" placeholder="Password" formControlName="password" required/>
         </label>
         <label for="submit">
             <input type="submit" id="submit" value="Login">
         </label>
+        <div class="registro">
+            <a href=""><p>¿Perdiste tu contraseña?</p></a>
+           <a href="/registro"><p>¿No tienes cuenta? Registrate</p></a>
+        </div>
     </div>
+</form>
+<div class="volver">
+    <p routerLink="/">Volver</p>
+</div>
 

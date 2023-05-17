@@ -1,176 +1,121 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
-
-input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
-  color: #aca49c;
-  font-size: 0.875em;
+.contenedor{
+  display: flex;
+  padding: 4%;
 }
 
-input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
-  color: #bbb5af;
+.marca{
+  font-weight: 600;
+  font-size: 130%;
 }
 
-input::-moz-placeholder, textarea::-moz-placeholder {
-  color: #aca49c;
-  font-size: 0.875em;
+.item{
+  font-weight: 700;
+  font-size: 130%;
 }
 
-input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
-  color: #bbb5af;
+.marcaBox{
+  width: 30%;
+  height: 70vh;
+  padding: 1%;
+
 }
 
-input::placeholder, textarea::placeholder {
-  color: #aca49c;
-  font-size: 0.875em;
+.itemBox{
+width: 70%;
+height: 70vh;
+padding: 1%;
 }
 
-input:focus::placeholder, textarea::focus:placeholder {
-  color: #bbb5af;
+.lineaInferior{
+  width: 80%;
 }
 
-input::-ms-placeholder, textarea::-ms-placeholder {
-  color: #aca49c;
-  font-size: 0.875em;
+
+.boxDeSeleccion{
+  background-color: rgb(218, 217, 217);
+  width: 80%;
+  height: 80%;
+  border-radius: 10px;
+  padding: 5%;
 }
 
-input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
-  color: #bbb5af;
+@media only screen and (max-width:576px) {
+  .boxDeSeleccion{
+    font-size: 80%;
+    width: 100%;
+    height: 60%;
+  }
+
+  .seleccion{
+    height: 9% !important;
+  }
+
+  .mitadDerecha{
+    margin-top: 30%;
+  }
+
+  .corto{
+    height: fit-content !important;
+  }
+
+  .largo{
+    width: 250px !important;
+  }
 }
 
-/* on hover placeholder */
-
-input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
-  color: #e2dedb;
-  font-size: 0.875em;
-}
-
-input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
-  color: #cbc6c1;
-}
-
-input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
-  color: #e2dedb;
-  font-size: 0.875em;
-}
-
-input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
-  color: #cbc6c1;
-}
-
-input:hover::placeholder, textarea:hover::placeholder {
-  color: #e2dedb;
-  font-size: 0.875em;
-}
-
-input:hover:focus::placeholder, textarea:hover:focus::placeholder {
-  color: #cbc6c1;
-}
-
-input:hover::placeholder, textarea:hover::placeholder {
-  color: #e2dedb;
-  font-size: 0.875em;
-}
-
-input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
-  color: #cbc6c1;
-}
-
-body {
-  font-family: 'Lato', sans-serif;
-  color: #b3aca7;
-}
-
-header {
-    margin: 22% auto 2vh auto;
-  font-size: 3vw;
-  text-align: center;
-  letter-spacing: 7px;
-  color: #5B544E
-}
-
-p{
-    font-family: 'Lato', sans-serif;
-    display: flex;
-    justify-content: center;
-    margin: auto auto 5vh;
-    color: #5B544E;
-    font-size: 1.2vw;
-}
-
-#form {
-  width: 100%;
+.pestaña{
+  border: none;
+  background-color: rgb(218, 217, 217);
   display: block;
-  margin: auto auto auto 16%;
+  margin: 0 0 14% 0;
+  font-weight: 600;
+  padding: 0 0 0 10%;
+  text-align: left;
 }
 
-input {
-  font-family: 'Lato', sans-serif;
-  font-size: 0.875em;
-  width: 66%;
-  height: 4vw;
-  min-height: 40px;
-  padding: 0px 15px 0px 15px;
-  
-  background: transparent;
-  outline: none;
-  color: #5B544E;
-  
-  border: solid 1px #5B544E;
-  border-bottom: none;
-  
-  transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
+.seleccion{
+  background-color: #311566;
+  color: whitesmoke;
+  width: 100%;
+  height: 14%;
+  text-align: left;
+  border-radius: 5px;
+  padding: 0 0 0 10%;
 }
 
-input:hover {
-  background: #b3aca7;
-  color: #e2dedb;
+.pestaña:hover:not(.seleccion){
+  color: #5725b4;
+ }
+
+.subtitulo{
+  font-weight: 800;
 }
 
-textarea {
-  width: 66%;
-  height: 16vh;
-  max-height: 110px;
-  padding: 15px;
-  
-  background: transparent;
-  outline: none;
-  
-  color: #5B544E;
-  font-family: 'Lato', sans-serif;
-  font-size: 0.875em;
-  
-  border: solid 1px #5B544E;
-  
-  transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
+.informacionDeContacto{
+  padding: 3%;
+  color: rgba(49, 21, 102, 0.9);
 }
 
-textarea:hover {
-  background: #b3aca7;
-  color: #e2dedb;
+.informacion{
+  color: #000;
+  font-weight: 400;
 }
 
-#submit {
-  width: 66%;
-  
-  padding: 0;
-  margin: -6px 0px 0px 0px;
-  
-  font-family: 'Lato', sans-serif;
-  font-size: 0.875em;
-  color: #5B544E;
-  
-  outline:none;
-  cursor: pointer;
-  
-  border: solid 1px #5B544E;
-  border-top: none;
+.sin-margen-sup{
+  margin-top: -2%;
 }
 
-#submit:hover {
-  color: #e2dedb;
+.mitadDelBox{
+  width: 45%;
+  height: 40%;
+  float: left ;
 }
+
+.mitadDerecha{
+margin: 0 0 0 5%;
+}
+
+.llevar-al-fondo{
+  margin-top: 13%;
+}
+
