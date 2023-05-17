@@ -21,7 +21,6 @@
   .container{
     max-height: 350px;
   }
-
   input[type="email"], input[type="password"],input[type="submit"]{
     max-height: 45px;
   }
